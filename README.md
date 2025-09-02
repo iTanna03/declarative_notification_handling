@@ -1,16 +1,17 @@
-# notification_handling
+# 📨 Handle Notification Tap Events in Flutter
 
-Handling notifications declartively
+This repository contains sample code for handling **notification tap events** in Flutter — for example, navigating to a specific screen when a user taps a push notification.
 
-## Getting Started
+The implementation follows **Flutter’s declarative UI model** and avoids using **GlobalKeys** or imperative access to `BuildContext`. It promotes clean, maintainable, and testable code, aligned with best practices.
 
-This project is a starting point for a Flutter application.
+> 📖 Read the full article:  
+> 👉 [Handle Notification Taps in Flutter](https://medium.com/@riooooo/flutter-notification-handling-without-globalkey-the-declarative-way-a6e6ea660fe7)  
+> *(Published on Medium)*
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Handle push notification tap events
+- Navigate to specific screens based on payload data
+- Uses declarative patterns (no GlobalKeys or manual context grabbing)
+- Works seamlessly with Firebase Messaging
+- Clean code structure and separation of concerns
